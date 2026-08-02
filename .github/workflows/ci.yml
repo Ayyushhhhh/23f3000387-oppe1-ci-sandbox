@@ -38,7 +38,7 @@ jobs:
 
       - name: Run predictions and generate metrics
         env:
-          MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
+          MLFLOW_TRACKING_URI: http://34.93.84.95:5000
           MODEL_NAME: stock_movement_predictor
           MODEL_ALIAS: champion
         run: python ci/predict_and_report.py
