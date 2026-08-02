@@ -1,0 +1,4 @@
+[core]
+    remote = ciremote
+['remote "ciremote"']
+    url = gs://23f3000387-oppe1-sandbox/dvcstore
